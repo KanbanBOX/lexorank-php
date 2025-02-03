@@ -28,7 +28,7 @@ final class Rank
     public const MAX_CHAR = 'z';
 
     /** Usually, database like MySQL order using only the first 1024 chars */
-    public const MAX_RANK_LEN = 1024;
+    public const MAX_RANK_LEN = 2048;
 
     /**
      * @var non-empty-string
